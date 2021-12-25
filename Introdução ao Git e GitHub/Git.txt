@@ -1,0 +1,27 @@
+GIT
+
+Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+
+O Git é usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.
+
+Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. O Git também facilita a reprodutibilidade científica em uma ampla gama de disciplinas, da ecologia à bioinformática, arqueologia à zoologia.
+
+O Git possuí duas estruturas de dados: um índice mutável que provê informações sobre o diretório de trabalho e a próxima revisão a ser cometida; e um banco de dados de objetos de acréscimo imutável.
+
+O Git possuí duas estruturas de dados: um índice mutável que provê informações sobre o diretório de trabalho e a próxima revisão a ser cometida; e um banco de dados de objetos de acréscimo imutável.
+O banco de dados de objetos contém quatro tipos de objetos:
+1.	Um objeto blob é o conteúdo de um arquivo. Estes objetos não possuem nomes, datações ou outros metadados.
+
+2.	Um objeto tree (árvore) é o equivalente a um diretório. Ele contém um lista de nomes de arquivos, cada um com bits que informam o tipo e o nome do blob, da árvore, ligação simbólica ou conteúdo de diretório que pertence a este nome. Este objeto descreve o estado da árvore de diretório.
+
+3.	Um objeto commit (entrega) liga árvores de objetos junto com um histórico. Ele contém o nome de uma árvore de objetos (da raiz de diretórios), datação, uma mensagem de log, e os nomes de zero ou mais objetos-pai de commit.
+
+4.	Um objeto tag (rótulo) é um invólucro que referencia outros objetos e pode conter metadados adicionais relacionados a outro objeto. Em geral, é usado para armazenar uma assinatura digital de um objeto commit correspondente àquela release de dados que estão sendo rastreados pelo Git.
+
+O índice serve como um ponto de conexão entre o banco de dados de objetos e a árvore de trabalho.
+
+O Git está primariamente desenvolvido para Linux, mas pode ser usado em outros sistemas operacionais baseados no Unix, incluindo o BSD, o Solaris e o Darwin. O Git é extremamente rápido em arquiteturas POSIX como o Linux. O Git também roda no Microsoft Windows.
+
+O Git é um software livre, distribuído sob os termos da versão 2 da GNU General Public License. Seus desenvolvedores são Linus Torvalds e Junio Hamano (mantenedor).
+
+Fonte: Wikipédia
